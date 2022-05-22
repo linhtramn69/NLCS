@@ -17,7 +17,7 @@ function Header(UserLogin) {
         <header className="position-sticky" style={{ top: "0", zIndex: "1000" }}>
             <div className="header-title">
                 <Link to="/" className="text-decoration-none">
-                    <h5 className="text-center p-2 text-white">DUENDE</h5>
+                    <h5 className="text-center p-2 text-white">EATCLEAN</h5>
                 </Link>
             </div>
             <Navbar style={{ backgroup: "white" }} expand="lg" fill className=''>
@@ -26,15 +26,15 @@ function Header(UserLogin) {
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
                         <Nav className="align-items-center nav-header">
                             <Link to="/">TẤT CẢ</Link>
-                            <Link to="/">DÂY CHUYỀN</Link>
-                            <Link to="/">NHẪN</Link>
-                            <Link to="/">LẮC TAY</Link>
-                            <Link to="/">KHUYÊN TAI</Link>
-                            <NavDropdown title="BỘ SƯU TẬP" >
-                                <Link to="/" className='dropdown-item'>ELAN COLLECTION</Link>
-                                <Link to="/" className='dropdown-item'>ASPIRATION COLLECTION</Link>
-                                <Link to="/" className='dropdown-item'>ELEVATION COLLECTION</Link>
-                                <Link to="/" className='dropdown-item'>EMALIE COLLECTION</Link>
+                            <Link to="/">SALAD</Link>
+                            <Link to="/">CƠM</Link>
+                            <Link to="/">SÚP</Link>
+                            <Link to="/">MÓN CHÍNH</Link>
+                            <NavDropdown title="ĐỒ ĂN VẶT KHÁC" >
+                                <Link to="/" className='dropdown-item'>CÁC LOẠI HẠT</Link>
+                                <Link to="/" className='dropdown-item'>BÁNH MÌ</Link>
+                                <Link to="/" className='dropdown-item'>BÁNH QUY</Link>
+                                <Link to="/" className='dropdown-item'>CÁC LOẠI SỮA</Link>
                             </NavDropdown>
                         </Nav>
                         <div className=" mx-4">
@@ -61,7 +61,6 @@ function Header(UserLogin) {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-
         </header >
     )
 }

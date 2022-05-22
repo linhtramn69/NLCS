@@ -24,7 +24,7 @@ function Index() {
                 <section>
                     <div className="container-fluid">
                         <div className="row">
-                            <img src="images/banners/home.png" alt="" className="img-fluid w-100" />
+                            <img src="images/banner.jpg" alt="" className="banner  w-100" />
                         </div>
                     </div>
 
@@ -35,13 +35,13 @@ function Index() {
                     <div className="container">
                         <div className="row row-cols-3 py-2 pt-3 text-center">
                             <div className="col">
-                                <h6><i className="fas fa-dolly me-2"></i>FREESHIP</h6>
+                                <h6><i className="fas fa-dolly me-2"></i>GIAO HÀNG TẬN NƠI</h6>
                             </div>
                             <div className="col">
-                                <h6><i className="fas fa-box-open me-2"></i>HOÀN TRẢ MIỄN PHÍ</h6>
+                                <h6><i className="fas fa-box-open me-2"></i>PHỤC VỤ 24/24</h6>
                             </div>
                             <div className="col">
-                                <h6><i className="fas fa-hand-holding-heart me-2"></i>BẢO HÀNH VĨNH VIỄN</h6>
+                                <h6><i className="fas fa-hand-holding-heart me-2"></i>BẢO ĐẢM CHẤT LƯỢNG</h6>
                             </div>
                         </div>
                     </div>
@@ -51,12 +51,11 @@ function Index() {
                 <section>
                     <div className="container">
                         <div className="option-product d-block text-center py-5 ">
-                            <a href="#"><button className="me-5 mb-lg-0 mb-3">DÂY CHUYỀN</button></a>
-                            <a href="#"><button className="me-5">NHẪN</button></a>
-                            <a href="#"><button className="me-5">LẮC TAY</button></a>
-                            <a href="#"><button className="me-5">KHUYÊN TAI</button></a>
+                            <a href="#"><button className="me-5 mb-lg-0 mb-3">THỰC ĐƠN MỖI NGÀY</button></a>
+                            <a href="#"><button className="me-5">CÔNG THỨC NẤU ĂN</button></a>
+                            <a href="#"><button className="">CHẾ ĐỘ ĂN UỐNG SẠCH</button></a>
                         </div>
-                        <h4 className="option-title">MÓN QUÀ TRI ÂN</h4>
+                        <h4 className="option-title">MÓN ĂN MỖI NGÀY</h4>
                         <Row className="product-home mt-5">
                             {products.map((product) => (
                                 <Col lg={3} md={6}>

@@ -1,19 +1,10 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
-import { Link, useNavigate } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressCard, faLock } from "@fortawesome/free-solid-svg-icons";
-import {
-    Container,
-    Row,
-    Col,
-    Form,
-    Button,
-    Breadcrumb,
-    Alert
-} from "react-bootstrap";
-
+import React, { useEffect, useState } from "react"
+import axios from "axios"
+import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons"
+import { Link, useNavigate } from "react-router-dom"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faAddressCard, faLock } from "@fortawesome/free-solid-svg-icons"
+import { Container, Row, Col, Form, Button, Alert } from "react-bootstrap"
 
 function Login(props) {
     const [error, setError] = useState(false);
@@ -47,18 +38,11 @@ function Login(props) {
 
     return (
         <Container className="border-2 border my-5">
-
             <Row>
                 <Col lg="6" className=" border-end my-5">
-
                     <div className="col-7 mx-auto ">
-                        <h4 className="mb-4 text-center">
-                            Đăng nhập
-                        </h4>
-                        <Form.Group
-
-                            className="mb-3"
-                        >
+                        <h4 className="mb-4 text-center">Đăng nhập</h4>
+                        <Form.Group className="mb-3">
                             <Form.Label>
                                 <FontAwesomeIcon icon={faAddressCard} color="#29689b" /> Username
                             </Form.Label>
@@ -73,9 +57,7 @@ function Login(props) {
                             <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                         </Form.Group>
 
-                        <Form.Group
-                            className="mb-3 "
-                        >
+                        <Form.Group className="mb-3 " >
                             <Form.Label>
                                 <FontAwesomeIcon icon={faLock} color="#29689b" /> Password
                             </Form.Label>
@@ -89,9 +71,7 @@ function Login(props) {
                             />
                             <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                         </Form.Group>
-                        <Form.Group
-                            className="mb-3 "
-                        >
+                        <Form.Group className="mb-3" >
                             <Form.Check type="checkbox" label="Nhớ mật khẩu" />
                             <Link to="/" className="text-decoration-none">
                                 Quên mật khẩu
@@ -128,9 +108,7 @@ function Login(props) {
 
                 </Col>
                 <Col lg="6" className="mt-5 ps-5">
-                    <h4 className="mb-5">
-                        Khách hàng mới
-                    </h4>
+                    <h4 className="mb-5">Khách hàng mới</h4>
                     <div className="justify-content-between">
                         <p className="mb-5">
                             Bằng cách tạo tài khoản với cửa hàng của chúng tôi, bạn sẽ có thể

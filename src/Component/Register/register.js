@@ -1,22 +1,10 @@
-import React, { useState } from "react";
-import axios from "axios";
-import { useNavigate } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faPhone,
-    faUser,
-    faLock,
-    faVenusMars,
-    faAddressCard,
-} from "@fortawesome/free-solid-svg-icons";
-import {
-    Container,
-    Row,
-    Col,
-    Form,
-    Button
-} from "react-bootstrap";
-import { faCalendarDays } from "@fortawesome/free-regular-svg-icons";
+import React, { useState } from "react"
+import axios from "axios"
+import { useNavigate } from "react-router-dom"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faPhone, faUser, faLock, faVenusMars, faAddressCard } from "@fortawesome/free-solid-svg-icons"
+import { Container, Row, Col, Form, Button } from "react-bootstrap"
+import { faCalendarDays } from "@fortawesome/free-regular-svg-icons"
 import { toast } from "react-toastify"
 
 function Register() {
@@ -66,7 +54,6 @@ function Register() {
                   });
             })
     }
-
 
     return (
         <Container className="border border-2 my-5">

@@ -199,21 +199,8 @@ footer  a:hover {
     color: goldenrod;
 }
 /* Products */
-.banner-title {
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    width: 50%;
-}
-.banner-title h2 {
-    font-size: 2.5em;
-    letter-spacing: 5px;
-    font-family: 'Montserrat', sans-serif;
-}
-.banner-title p {
-    font-size: 1em;
-    letter-spacing: 4px;
-    font-weight: 200;
+.banner {
+    height: 82vh;
 }
 .name-product {
     font-size: 1.5em;
